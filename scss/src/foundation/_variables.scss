@@ -1,0 +1,82 @@
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+/* Brand Colors */
+$green: #5ece7b;
+$green-light: #9ee2b0;
+$dark: #1d1f22;
+$dark-light: #737680;
+$gray: #a3a5ad;
+$white: #fff;
+$white-dark: #f1f2f3;
+
+/* Utility Colors */
+$red: #d12727;
+$red-light: #f8dedf;
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+/*=====  End of colors  ======*/
+
+/*=============================================
+=            Typography                        =
+=============================================*/
+
+/**
+ *
+ * 1.) somthing related to playfair var
+ *
+ * 2.) something related to raleway var
+ */
+
+/* font-famillies */
+$playfair: 'Playfair', serif; /* 1 */
+$raleway: 'Raleway', 'HelveticalNeue', 'Helvetical', 'Arial', sans-serif; /* 2 */
+
+/*=====  End of end of font families  ======*/
+
+/* Font sizes */
+$fs-xs: 0.75rem; //12px
+$fs-sm: 0.875rem; //14px
+$fs-base: 1rem;
+$fs-lg: 1.125rem;
+$fx-xl: 1.5rem;
+
+/*=====  End of font sizes  ======*/
+
+/* Heading font sizes */
+$h-1: 1.375em; //22px
+$h-2: 1.375em; //22px
+$h-3: 1rem; //16px
+$h-4: 1.125rem; //18px
+$h-5: 0.75rem; //12px
+$h-6: 0.75rem; // 12px
+
+/*=====  End of heading sizes  ======*/
+
+/* font-weight */
+$fw-light: 300;
+$f2-normal: 400;
+$f2-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====  End of font weight  ======*/
+
+/*=============================================
+=            Breakpoints            =
+=============================================*/
+
+$breakpoints: (
+  md: 48rem,
+  //768px
+  lg: 64rem,
+  //1024px
+  xl: 80rem,
+  //1280px
+);
+
+/*=====  End of font sizes  ======*/
