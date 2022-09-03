@@ -13,10 +13,7 @@ $body-bg-color: var(--dse-body-bg-color $white) !default;
 
 $btn-primary-color: var(--dse-btn-primary-color, $white) !default;
 $btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
-$btn-primary-bg-hoer: var(
-  --dse-btn-primary-bg-hover,
-  $green-light
-) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
 
 /*=====  End of Buttons  ======*/
 
@@ -32,8 +29,5 @@ $form-error-color: var(--dse-form-error-color, $red) !default;
 
 $form-error-border: var(--dse-form-error-border, $red) !default;
 
-$form-border-focus-color: var(
-  --dse-form-borer-focus-color,
-  $green
-) !default;
+$form-border-focus-color: var(--dse-form-borer-focus-color, $green) !default;
 /*=====  End of Forms  ======*/
