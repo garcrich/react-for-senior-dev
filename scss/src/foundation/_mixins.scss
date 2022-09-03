@@ -2,6 +2,10 @@
 =            Mixins            =
 =============================================*/
 
+/*=============================================
+=            screen sizes            =
+=============================================*/
+
 @mixin tablet {
   @media (min-width: map-get($breakpoints, 'md')) {
     @content;
@@ -18,4 +22,44 @@
   @media (min-width: map-get($breakpoints, 'xl')) {
     @content;
   }
+}
+
+/*=============================================
+=            Margins            =
+=============================================*/
+
+@mixin margin-top($spacing-size) {
+  margin-top: map-get($spacing, $spacing-size);
+}
+
+@mixin margin-right($spacing-size) {
+  margin-right: map-get($spacing, $spacing-size);
+}
+
+@mixin margin-bottom($spacing-size) {
+  margin-bottom: map-get($spacing, $spacing-size);
+}
+
+@mixin margin-left($spacing-size) {
+  margin-left: map-get($spacing, $spacing-size);
+}
+
+/*=============================================
+=            paddings            =
+=============================================*/
+
+@mixin padding-top($spacing-size) {
+  padding-top: map-get($spacing, $spacing-size);
+}
+
+@mixin padding-right($spacing-size) {
+  padding-right: map-get($spacing, $spacing-size);
+}
+
+@mixin padding-bottom($spacing-size) {
+  padding-bottom: map-get($spacing, $spacing-size);
+}
+
+@mixin padding-left($spacing-size) {
+  padding-left: map-get($spacing, $spacing-size);
 }
